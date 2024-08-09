@@ -1,0 +1,42 @@
+/* RESETS */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  color: #333;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+form > * {
+  padding: 6px 10px;
+  margin-bottom: 6px;
+}
+
+/* GLOBAL CLASSES */
+.row, .column {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
