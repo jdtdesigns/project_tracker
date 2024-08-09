@@ -9,8 +9,16 @@ module.exports = {
 
   showRegisterPage(req, res) {
     res.render('register', {
-      title: 'Project Tracker - Register'
+      title: 'Project Tracker - Register',
+      register: true
     })
+  },
+
+  showLoginPage(req, res) {
+    res.render('login', {
+      title: 'Project Tracker - Log In',
+      login: true
+    });
   },
 
   async showDashboardPage(req, res) {
